@@ -1,8 +1,10 @@
 .container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1000px;
+    margin: 0px 200px;
 }
 .header {
     display: flex;
@@ -64,4 +66,68 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+ }
+
+ .body2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+ }
+
+ .signUp {
+     height: 25px;
+     width: 75px;
+     background-color: #3882F6;
+     color:#F9FAF8;
+     border-radius: 5px;
+ }
+
+ .infoHeader {
+     font-size: 36px;
+     font-weight: bolder;
+     color: #1f2937;
+ }
+ .subText {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+ }
+ .subRect {
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    width: 75px;
+    height: 75px;    
+ }
+ .subTextItem {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .subTextText {
+    font-size: smaller;
+    text-align: center;
+    margin-top: 0px;
+ }
+
+ .body3 {
+     background-color: #E5E7EB;
+     padding: 75px 100px;
+     
+ }
+ .quoteText {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+ }
+ .quoteAttrib {
+     font-size: 20px;
+     font-weight: bold;
+     text-align: right;
  }
