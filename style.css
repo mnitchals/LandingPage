@@ -35,11 +35,13 @@
 .left {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .heroText {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
+    padding: 0px;
 }
 .heroSecondaryText {
     font-size: 18px;
@@ -130,4 +132,38 @@
      font-size: 20px;
      font-weight: bold;
      text-align: right;
+ }
+ .body4 {
+     align-items: center;
+     justify-content: center;
+     padding: 75px;
+ }
+ .callToAction {
+     display: flex;
+     justify-content: space-around;
+     padding: 50px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: row;
+     margin: 0px;
+     border: 1px;
+ }
+ .right {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .actionText {
+     margin: 0px;
+ }
+ .signUp2 {
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+ }
+ .callToAction, .signUp2 {
+    background-color: #3882F6;
  }
